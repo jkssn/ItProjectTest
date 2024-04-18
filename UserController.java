@@ -20,6 +20,7 @@ public class UserController {
     private UserService userService;
 
     //登录
+    //随便写几个字，修改一下
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public ResultInfo login(@RequestParam("username") String username, @RequestParam("password") String password, HttpSession session) {
 
